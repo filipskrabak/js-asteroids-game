@@ -1,0 +1,59 @@
+#canvas
+{
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    background: black;
+    z-index: 1;
+}
+
+@font-face {
+    font-family: 'Joystix';
+    src: url('fonts/joystix.ttf');
+}
+
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+table {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 220px;
+    color: black;
+    width: 500px;
+    background: white;
+    font-family: 'Joystix';
+    padding: 3px 8px;
+}
+
+#trth {
+    text-align: left;
+    font-size: 30px;
+}
+
+input {
+    position: absolute;
+    top: 280px;
+    z-index: 10;
+    font-size: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: 'Joystix';
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+input:active:focus {
+    border: none;
+    outline: none;
+}
